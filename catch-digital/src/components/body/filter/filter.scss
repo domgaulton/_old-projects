@@ -1,0 +1,79 @@
+@import '../../styles/variables.scss';
+
+.filter {
+  min-height: 150px;
+
+  &_heading {
+    margin-left: 20px;
+    font-size: 3em;
+    letter-spacing: 6px;
+
+    @media (min-width: $screen-md-min) {
+      margin-left: 100px;
+      font-size: 5em;
+    }
+  }
+
+  &_list {
+    cursor: pointer;
+    margin: 30px auto;
+    background-image: url('./icon-chevron-down.svg');
+    background-repeat: no-repeat;
+    background-position: 170px -3px;
+    width: 100%;
+    height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+
+    &:before {
+      content: 'Show Filters';
+      margin-left: 20px;
+    }
+
+    @media (min-width: $screen-md-min) {
+      margin-left: 100px;
+      background: none;
+      width: 100%;
+
+      &:before {
+        content: none;
+      }
+    }
+  }
+
+  &_item {
+    width: 100%;
+    cursor: pointer;
+    font-family: 'Omnes ExtraLight';
+    color: grey;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    background: white;
+    padding: 20px;
+    display: none;
+    position: relative;
+    z-index:99;
+
+    @media (min-width: $screen-md-min) {
+      background: transparent;
+      float: left;
+      width: auto;
+      padding-bottom: 5px;
+      margin-right: 40px;
+      display: block;
+      padding: 0;
+      padding-bottom: 5px;
+    }
+
+    &:hover {
+      font-weight: bold;
+    }
+
+    &--active {
+      border-bottom: 0;
+      @media (min-width: $screen-md-min) {
+        border-bottom: 2px solid rgb(124, 207, 238);
+      }
+    }
+  }
+}

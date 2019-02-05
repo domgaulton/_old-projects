@@ -1,0 +1,91 @@
+.checkout {
+  display: none;
+}
+
+.checkout h1 {
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.checkout__intro {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.checkout__list li {
+  margin-bottom: 8px;
+}
+
+.checkout__list {
+  margin-bottom: 50px;
+}
+
+.checkout__list--name {
+  float: left;
+}
+
+.checkout__list--price {
+  text-align: right;
+}
+
+.checkout__total, .checkout__total--number, .checkout__discount, .checkout__discount--number, .checkout__final, .checkout__final--number {
+  margin-top: 10px;
+  display: inline-block;
+}
+
+.checkout__total--number, .checkout__discount--number, .checkout__final--number {
+  float: right;
+}
+
+.checkout__discount, .checkout__discount--number {
+  margin-top: 25px;
+  font-weight: bold;
+  color: red;
+}
+
+.checkout__final, .checkout__final--number {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+
+.checkout__input {
+  padding: 9px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  width: 150px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 1em;
+}
+
+.checkout__coupon {
+  text-align: center;
+  width: 100%;
+}
+
+.checkout__submit, .checkout__reset {
+  margin-left: 10px;
+  background-color: #4177f1;
+  min-width: 80px;
+}
+
+ .checkout__reset {
+  background-color: black;
+ }
+
+.checkout__basket {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+  background-color: #FF4500;
+}
+
+.checkout__continue {
+  position: absolute;
+  bottom: 50px;
+  right: 20px;
+  background-color: #4CAF50;
+}

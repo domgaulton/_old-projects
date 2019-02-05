@@ -1,0 +1,91 @@
+
+@media only screen and (min-width: 100px) {
+  .product-item {
+    width: 100%;
+    clear: both;
+    padding: 20px 0px;
+    display: block;
+  }
+
+  .product-item__image {
+    margin: 0 auto;
+    display: block;
+    width: 300px;
+  }
+
+  .product-item__description {
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+  }
+
+  .product-item__description h2 {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .product-item__description p {
+    font-size: 0.8em;
+  }
+
+  .product-item__description button {
+    background-color: #4177f1;
+    margin: 10px 0;
+  }
+
+
+  .shopping-basket {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    border-radius: 40px;
+    background-image: url('https://static.thenounproject.com/png/17136-200.png');
+    background-size: 60px 60px;
+    background-repeat: no-repeat;
+    background-position: center; 
+    transition: 0.2s cubic-bezier(0.76, 0.12, 0.18, 0.5);
+    cursor: pointer;
+  }
+
+  .shopping-basket.add-item {
+    transform: scale(1.2);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .product-item {
+    clear: both;
+    padding: 20px 15px;
+  }
+
+  .product-item__image {
+    float: left;
+    width: 150px;
+    display: inline-block;
+  }
+
+  .product-item__description {
+    text-align: left;
+    margin-left: 20px;
+    display: inline-block;
+    max-width: 300px;
+  }
+
+  .product-item__description h2 {
+    font-weight: bold;
+    margin: 10px 0;
+  }
+
+  .product-item__description button {
+    background-color: #4177f1;
+    margin-top: 10px;
+    margin-right: 20px;
+  }
+
+  .shopping-basket {
+    display: none;
+  }
+}

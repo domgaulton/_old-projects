@@ -1,0 +1,50 @@
+@import '../../styles/variables.scss';
+
+.portfolio-cards {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto;
+
+  @media (min-width: $screen-sm-min) {
+    grid-template-columns: auto auto;
+  }
+
+  @media (min-width: $screen-md-min) {
+    grid-template-columns: auto auto auto;
+  }
+
+	&_card {
+    width: 100%;
+    height: 300px;
+		display: none;
+    color: white;
+    position: relative;
+    background-size: cover;
+
+    img {
+      width: 100%;
+    }
+
+		&.active {
+			display: block;
+		}
+	}
+
+  &_info {
+    font-family: 'Omnes ExtraLight';
+    letter-spacing: 1px;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+
+    h2 {
+      font-size: 2em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 1.2em;
+    }
+  }
+}
