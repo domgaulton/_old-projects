@@ -1,0 +1,91 @@
+@import url(http://fonts.googleapis.com/css?family=Press+Start+2P);
+
+
+body {
+	background: #FDFD96;
+}
+
+#game {
+	font-family: 'Press Start 2P', cursive;
+	width: 300px;
+	margin: 30px auto;
+	text-align: center;	
+}
+
+#game p {
+	margin: 10px 0 3px;
+}
+
+#start {
+	font-family: 'Press Start 2P', cursive;
+	width: 140px;
+	height: 140px;
+	border: 1px solid green;
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 70px;
+	box-shadow: inset rgba(255,255,255,.8) 0 4px 4px;
+	background: green;
+}
+
+#stop {
+	font-family: 'Press Start 2P', cursive;
+	width: 140px;
+	height: 140px;
+	border: 1px solid red;
+	display: inline-block;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	border-radius: 70px;
+	box-shadow: inset rgba(255,255,255,.8) 0 4px 4px;
+	background: red;
+}
+
+#feedback {
+	margin-top: 50px;
+}
+
+#topScores {
+	font-family: 'Press Start 2P', cursive;
+	position: absolute;
+	right: 10px;
+	top: 30px;
+	text-align: center;
+	width: 300px;
+	background: #FDFD96;
+	display: none;
+}
+
+#topScores #closeScores {
+	margin: 0;
+	border: 1px solid black;
+	padding: 1px 4px;
+	position: absolute;
+	top: 2px;
+	right: 2px;
+}
+
+#topScores h1 {
+	margin: 1px 0 5px 0;
+}
+
+#topScores table {
+	width: 300px;
+}
+
+#topScores td {
+	font-size: 15px;
+	padding: 5px 3px;
+}
+
+#scoreCalculation {
+	background: #FDFD96;
+	position: relative;
+	padding: 50px 0;
+	top: -268px;
+	display: none;
+}
+
+
+

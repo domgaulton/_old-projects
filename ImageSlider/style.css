@@ -1,0 +1,24 @@
+.slider {
+	width: 400px;
+	height: 220px;
+	overflow: hidden;
+	margin:30px auto;
+	background-image: url(loading.gif);
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.slider img { 
+	width: 400px;
+	height: 220px;
+	display: none;
+}
+
+.shadow {
+	background-image: url(shadow.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	width: 864px;
+	height: 144px;
+	margin: -50px auto;
+}

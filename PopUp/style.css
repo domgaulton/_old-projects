@@ -1,0 +1,25 @@
+.popText {
+	position: absolute;
+	top: 40%;
+	left: 40%;
+	width: 300px;
+	border: 3px solid blue;
+	border-radius: 3px;
+	background-color: white;
+	display: none;
+}
+
+.popText h1 {
+	color: blue;
+	text-align: center;
+}
+
+.popText p {
+	padding: 5px;
+}
+
+.popText button {
+	position: absolute;
+	top:0;
+	right: 0;
+}

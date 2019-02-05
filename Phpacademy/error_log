@@ -1,0 +1,1 @@
+[17-Feb-2014 11:01:15] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home4/dgaulton/public_html/develop/phpacademy/includes/overall/header.php:3) in /home4/dgaulton/public_html/develop/phpacademy/activate.php on line 28

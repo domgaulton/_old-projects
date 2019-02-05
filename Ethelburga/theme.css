@@ -1,0 +1,44 @@
+@import url(http://fonts.googleapis.com/css?family=Gafata);
+body { font-family: 'Gafata', sans-serif; }
+
+@media only screen and (min-width : 1100px) {
+/* Styles */
+#everything {display: block; width: 700px; margin: 15px auto;}
+select { width: 80px;}
+
+th, td { padding: 1% 2%; text-align: center; font-size: 32px;}
+
+a.hidden { color: black; text-decoration: none}
+a.hidden:hover {color: black;}
+a.hidden:visited {color: black;}
+
+#leaguetable { display: block; margin: 20px auto; }
+
+#results {list-style-type: none; font-size: 32px; clear: both;}
+
+#form { float: left; clear: left;}
+
+#right { float: right; clear: right;}
+}
+
+@media only screen and (max-width : 1099px) {
+/* Styles */
+body { font-family: 'Gafata', sans-serif; font-size: 14px;}
+#everything { width: 300px; display: block; margin: 15px auto;}
+select { width: 80px;}
+
+th, td { padding: 5px; text-align: center; }
+
+a.hidden { color: black; text-decoration: none}
+a.hidden:hover {color: black;}
+a.hidden:visited {color: black;}
+
+#leaguetable { display: block; margin: 20px auto; }
+
+#results {list-style-type: none; clear: both; }
+
+#form { float: left; clear: left; width: 300px; margin-left: 80px;}
+
+#right { width: 300px; margin-left: 80px;}
+#right p { margin-left: 20px;}
+}

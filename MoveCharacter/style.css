@@ -1,0 +1,37 @@
+body {
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	padding: 0;
+}
+
+#console {
+	margin: 30px;
+	float: right;
+	width: 200px;
+}
+
+#console p {
+	font-size: 72px;
+}
+
+#player {
+	position: absolute;
+	background: url(character.png) no-repeat;
+	width: 32px;
+	height: 43px;
+}
+
+#map {
+	float: left;
+	position: relative;
+	width: 610px;
+	height: 302px;
+	border: 2px solid black;
+}
+
+#object {
+	position: absolute;
+	background: url(object.png) no-repeat;
+	width: 32px;
+	height: 32px;
+}

@@ -1,0 +1,19 @@
+table {	
+	margin: 10% 0 0 40%;
+}
+
+table tr td {
+	vertical-align: top;
+	text-align: center;
+	padding: 5px;
+}
+
+#clickMe {
+	width: 50px;
+	height: 20px;
+	background: red;
+}
+
+.feedback {
+	clear: both;
+}

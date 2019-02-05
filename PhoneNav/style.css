@@ -1,0 +1,231 @@
+@import url(http://fonts.googleapis.com/css?family=Playball);
+@import url(http://fonts.googleapis.com/css?family=Boogaloo);
+
+body {
+	margin: 5px;
+}
+
+@media only screen and (min-width : 961px) {
+
+.inner {
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 70px;
+}
+
+#companyName {
+	float: left;
+	background-color: #FF6961;
+	color: white;
+	width: 230px;
+	text-align: center;
+	padding: 10px;
+	font-family: 'Playball', cursive;
+}
+
+#companyName h1 {
+	margin: 0;
+}
+
+ul {
+	height: 70px;
+	display: block;
+	position: relative;
+	width: 700px;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	width: 221px;
+	margin: 0 2px 2px 0;
+	float: left;
+	padding: 5px;
+	background: #FF6961;
+	text-align: center;
+	color: white;
+	font-family: 'Boogaloo', cursive;
+}
+
+ul li:hover {
+	background: red	;
+}
+
+section {
+	clear: both;
+	margin-top: 5px;
+}
+
+#menuButton {
+	display: none;
+}
+
+}
+
+@media only screen and (max-width : 960px) {
+
+.inner {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+header {
+	height: 50px;
+}
+
+#companyName {
+	float: left;
+	background-color: #FF6961;
+	color: white;
+	width: 180px;
+	text-align: center;
+	padding: 10px 5px;
+	font-family: 'Playball', cursive;
+}
+
+#companyName h1 {
+	margin: 0;
+	font-size: 24px;
+}
+
+ul {
+	display: block;
+	position: relative;
+	width: 400px;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	width: 121px;
+	margin: 0 2px 1px 0;
+	float: left;
+	padding: 3px 5px;
+	background: #FF6961;
+	text-align: center;
+	color: white;
+	font-family: 'Boogaloo', cursive;
+}
+
+ul li:hover {
+	background: red	;
+}
+
+#menuButton {
+	display: none;
+}
+
+}
+
+@media only screen and (max-width : 600px) {
+
+.inner {
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+p {
+	text-align: justify;
+}
+
+#companyName {
+	float: left;
+	background-color: #FF6961;
+	color: white;
+	width: 220px;
+	text-align: center;
+	padding: 10px 5px;
+	font-family: 'Playball', cursive;
+}
+
+#companyName h1 {
+	margin: 0;
+}
+
+ul {
+	background-color: white;
+	display: none;
+	width: 300px;
+	float: right;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	clear: both;
+	width: 290px;
+	margin: 2px 0 2px 0;
+	float: left;
+	padding: 3px 5px;
+	background: #FF6961;
+	text-align: center;
+	color: white;
+	font-family: 'Boogaloo', cursive;
+}
+
+ul li:hover {
+	background: red	;
+}
+
+#menuButton {
+	float: right;
+	display: block;
+	position: relative;
+	width: 50px;
+	height: 50px;
+	background: #FF6961;
+}
+
+.buttonDiv {
+	width: 30px;
+	height: 5px;
+	background: white;
+	position: absolute;
+	transition:.2s linear;
+	-webkit-transform : rotate(0deg);
+}
+
+#topMB {
+	top: 10px;
+	left: 10px;
+}
+
+#midMB {
+	top: 23px;
+	left: 10px;
+}
+
+#botMB {
+	top: 35px;
+	left: 10px;	
+}
+
+.animateA{
+	top: 22px !important;
+    transition:.2s linear;
+    -webkit-transform : rotate(-45deg);
+}
+
+.animateB{
+	display: none;
+}
+
+.animateC{
+	top: 22px !important;
+    transition:.2s linear;
+    -webkit-transform : rotate(45deg);
+}
+
+
+}

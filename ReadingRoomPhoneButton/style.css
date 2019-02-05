@@ -1,0 +1,46 @@
+#menuButton {
+	position: relative;
+	width: 100px;
+	height: 100px;
+	background: lightgrey;
+}
+
+.buttonDiv {
+	width: 60px;
+	height: 10px;
+	background: black;
+	position: absolute;
+	transition:.2s linear;
+	-webkit-transform : rotate(0deg);
+}
+
+#topMB {
+	top: 20px;
+	left: 20px;
+}
+
+#midMB {
+	top: 45px;
+	left: 20px;
+}
+
+#botMB {
+	top: 70px;
+	left: 20px;	
+}
+
+.animateA{
+	top: 45px !important;
+    transition:.2s linear;
+    -webkit-transform : rotate(-45deg);
+}
+
+.animateB{
+	display: none;
+}
+
+.animateC{
+	top: 45px !important;
+    transition:.2s linear;
+    -webkit-transform : rotate(45deg);
+}

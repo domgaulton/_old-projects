@@ -1,0 +1,41 @@
+-- phpMyAdmin SQL Dump
+-- version 4.0.6
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Generation Time: Sep 10, 2014 at 09:51 AM
+-- Server version: 5.5.33
+-- PHP Version: 5.2.17
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+--
+-- Database: `timergame`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `highscores`
+--
+
+CREATE TABLE `highscores` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` text NOT NULL,
+  `score` decimal(11,2) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=226 ;
+
+--
+-- Dumping data for table `highscores`
+--
+
+INSERT INTO `highscores` (`id`, `name`, `score`) VALUES
+(219, 'DOM', 21.62),
+(220, 'DOM', 138.89),
+(221, 'DCG', 336.13),
+(222, 'TTT', 5.10),
+(223, 'TTT', 5.28),
+(224, 'TUP', 5.28),
+(225, 'SWM', 8.60);

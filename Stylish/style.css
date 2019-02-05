@@ -1,0 +1,26 @@
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif);
+
+body {
+	background-color: red;
+	font-family: 'Montserrat', sans-serif;
+}
+
+p.middle {
+	position: absolute;
+	color: white;
+	margin: 0;
+	font-size: 130px;
+	display: none;
+	-webkit-text-stroke: 3px black;
+	-ms-transform: skew(0,-15deg);
+    -webkit-transform: skew(0,-15deg);
+    transform: skew(0,-15deg);
+}
+
+p.text {
+	font-family: 'Droid Serif', serif;
+	color: black;
+	font-size: 40px;
+	margin: 0;
+}

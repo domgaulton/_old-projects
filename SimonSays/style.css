@@ -1,0 +1,47 @@
+body {
+	margin: 0;
+	background: black;
+}
+
+#wrapper {
+	position: absolute;
+	top: 35%;
+	left: 40%;
+	width: 220px;
+}
+
+#start, #playerScore, #simonSequence, #playerSequence, #level {
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	clear: both;
+}
+
+#playerScore, #simonSequence, #playerSequence, #level {
+	color: white;
+}
+
+.press {
+	margin: 5px;
+	float: left;
+	width: 100px;
+	height: 100px;
+	opacity: 0.5;
+}
+
+.red {
+	background-color: red;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.blue {
+	background-color: blue;
+}
+
+.green {
+	background-color: green;
+}
+

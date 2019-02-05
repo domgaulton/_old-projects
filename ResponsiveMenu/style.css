@@ -1,0 +1,66 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (min-width : 500px) {
+
+.phone {
+	display: none;
+}
+
+ul#menu_normal {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+} 
+
+ul#menu_normal li {
+	float: left;
+	padding: 10px 20px;
+}
+
+#main_content {
+	clear: both;
+}
+
+
+}
+
+
+
+@media only screen and (max-width: 500px) {
+
+.screen {
+	display: none;
+}
+
+#menu_show {
+	margin: 10px;
+}
+
+ul#menu_phone {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: none;
+	position: fixed;
+	top: 0px;
+	/* top: 22px; in v2 - v3 uses an li to remove menu so no need to push it down */
+	width: 100%;
+	background: white;
+}
+
+ul#menu_phone li {
+	margin: 3px 0;
+	padding: 10px 0; 
+	text-align: center;	
+	background: blue;
+}
+
+ul#menu_phone li a {
+	text-decoration: none;
+	color: white;
+}
+
+}

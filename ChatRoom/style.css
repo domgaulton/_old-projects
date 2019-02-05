@@ -1,0 +1,80 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway);
+
+body {
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+#login {
+	width: 100%;
+	max-width: 250px;
+	margin: 15px auto;
+}
+
+#login input {
+	float: right;
+}
+#chatRoom {
+	width: 100%;
+	max-width: 600px;
+	border: 5px solid grey;
+	border-radius: 5px;
+	margin: 15px auto;
+	padding: 15px;
+}
+
+#messageBox {
+	width: 98%;
+	border: 1px solid grey;
+	padding: 1%;
+	height: 400px;
+	overflow-y: scroll;
+}
+
+#writeMessage {
+	width: 75%;
+	margin-top: 10px;
+	resize: none;
+	font-family: 'Raleway', sans-serif;
+	font-size: 14px;
+	padding: 2% 1%;
+}
+
+#submitBtn {
+	float: right;
+	background: blue;
+	color: white;
+	margin-top: 8px;
+	width: 16%;
+	padding: 3% 2%;
+	font-size: 14px;
+	text-align: center;
+	margin-top: 10px;
+}
+
+.message {
+	max-width: 70%;
+	border-radius: 20px;
+	display: inline-block;
+	clear: both;
+	padding: 5px 10px;
+	margin: 7px 3px;
+}
+
+.sent {
+	background: blue;
+	color: white;
+	float: right;
+}
+
+.date {
+	clear: both;
+	font-size: 12px;
+}
+
+.recieved {
+	background: #e4e4e4;
+	float: left;
+	color: black;
+}

@@ -1,0 +1,11 @@
+.grayscale {
+    -webkit-filter: grayscale(1);
+    filter: grayscale(1);
+}
+
+#picture {
+	max-width: 500px;
+	max-height: 500px;
+	margin: 0 auto;
+	display:none;
+}

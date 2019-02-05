@@ -1,0 +1,244 @@
+<leagueTable>
+	<competition>Barclays Premier League</competition>
+	<description>League Table</description>
+	<team>
+		<position>1</position>
+		<name>Chelsea</name>
+		<played>3</played>
+		<won>3</won>
+		<drawn>0</drawn>
+		<lost>0</lost>
+		<for>11</for>
+		<against>4</against>
+		<goalDifference>+7</goalDifference>
+		<points>9</points>
+	</team>
+<team>
+<position>2</position>
+<name>Swansea City</name>
+<played>3</played>
+<won>3</won>
+<drawn>0</drawn>
+<lost>0</lost>
+<for>6</for>
+<against>1</against>
+<goalDifference>+5</goalDifference>
+<points>9</points>
+</team>
+<team>
+<position>3</position>
+<name>Aston Villa</name>
+<played>3</played>
+<won>2</won>
+<drawn>1</drawn>
+<lost>0</lost>
+<for>3</for>
+<against>1</against>
+<goalDifference>+2</goalDifference>
+<points>7</points>
+</team>
+<team>
+<position>4</position>
+<name>Manchester City</name>
+<played>3</played>
+<won>2</won>
+<drawn>0</drawn>
+<lost>1</lost>
+<for>5</for>
+<against>2</against>
+<goalDifference>+3</goalDifference>
+<points>6</points>
+</team>
+<team>
+<position>5</position>
+<name>Liverpool</name>
+<played>3</played>
+<won>2</won>
+<drawn>0</drawn>
+<lost>1</lost>
+<for>6</for>
+<against>4</against>
+<goalDifference>+2</goalDifference>
+<points>6</points>
+</team>
+<team>
+<position>6</position>
+<name>Tottenham Hotspur</name>
+<played>3</played>
+<won>2</won>
+<drawn>0</drawn>
+<lost>1</lost>
+<for>5</for>
+<against>3</against>
+<goalDifference>+2</goalDifference>
+<points>6</points>
+</team>
+<team>
+<position>7</position>
+<name>Arsenal</name>
+<played>3</played>
+<won>1</won>
+<drawn>2</drawn>
+<lost>0</lost>
+<for>5</for>
+<against>4</against>
+<goalDifference>+1</goalDifference>
+<points>5</points>
+</team>
+<team>
+<position>8</position>
+<name>Southampton</name>
+<played>3</played>
+<won>1</won>
+<drawn>1</drawn>
+<lost>1</lost>
+<for>4</for>
+<against>3</against>
+<goalDifference>+1</goalDifference>
+<points>4</points>
+</team>
+<team>
+<position>9</position>
+<name>Hull City</name>
+<played>3</played>
+<won>1</won>
+<drawn>1</drawn>
+<lost>1</lost>
+<for>3</for>
+<against>3</against>
+<goalDifference>0</goalDifference>
+<points>4</points>
+</team>
+<team>
+<position>10</position>
+<name>Stoke City</name>
+<played>3</played>
+<won>1</won>
+<drawn>1</drawn>
+<lost>1</lost>
+<for>2</for>
+<against>2</against>
+<goalDifference>0</goalDifference>
+<points>4</points>
+</team>
+<team>
+<position>11</position>
+<name>West Ham United</name>
+<played>3</played>
+<won>1</won>
+<drawn>0</drawn>
+<lost>2</lost>
+<for>4</for>
+<against>5</against>
+<goalDifference>-1</goalDifference>
+<points>3</points>
+</team>
+<team>
+<position>12</position>
+<name>Queens Park Rangers</name>
+<played>3</played>
+<won>1</won>
+<drawn>0</drawn>
+<lost>2</lost>
+<for>1</for>
+<against>5</against>
+<goalDifference>-4</goalDifference>
+<points>3</points>
+</team>
+<team>
+<position>13</position>
+<name>Sunderland</name>
+<played>3</played>
+<won>0</won>
+<drawn>2</drawn>
+<lost>1</lost>
+<for>3</for>
+<against>4</against>
+<goalDifference>-1</goalDifference>
+<points>2</points>
+</team>
+<team>
+<position>14</position>
+<name>Manchester United</name>
+<played>3</played>
+<won>0</won>
+<drawn>2</drawn>
+<lost>1</lost>
+<for>2</for>
+<against>3</against>
+<goalDifference>-1</goalDifference>
+<points>2</points>
+</team>
+<team>
+<position>15</position>
+<name>Leicester City</name>
+<played>3</played>
+<won>0</won>
+<drawn>2</drawn>
+<lost>1</lost>
+<for>3</for>
+<against>5</against>
+<goalDifference>-2</goalDifference>
+<points>2</points>
+</team>
+<team>
+<position>16</position>
+<name>Newcastle United</name>
+<played>3</played>
+<won>0</won>
+<drawn>2</drawn>
+<lost>1</lost>
+<for>3</for>
+<against>5</against>
+<goalDifference>-2</goalDifference>
+<points>2</points>
+</team>
+<team>
+<position>17</position>
+<name>Everton</name>
+<played>3</played>
+<won>0</won>
+<drawn>2</drawn>
+<lost>1</lost>
+<for>7</for>
+<against>10</against>
+<goalDifference>-3</goalDifference>
+<points>2</points>
+</team>
+<team>
+<position>18</position>
+<name>West Bromwich Albion</name>
+<played>3</played>
+<won>0</won>
+<drawn>2</drawn>
+<lost>1</lost>
+<for>2</for>
+<against>5</against>
+<goalDifference>-3</goalDifference>
+<points>2</points>
+</team>
+<team>
+<position>19</position>
+<name>Crystal Palace</name>
+<played>3</played>
+<won>0</won>
+<drawn>1</drawn>
+<lost>2</lost>
+<for>5</for>
+<against>8</against>
+<goalDifference>-3</goalDifference>
+<points>1</points>
+</team>
+<team>
+<position>20</position>
+<name>Burnley</name>
+<played>3</played>
+<won>0</won>
+<drawn>1</drawn>
+<lost>2</lost>
+<for>1</for>
+<against>4</against>
+<goalDifference>-3</goalDifference>
+<points>1</points>
+</team>
+</leagueTable>
